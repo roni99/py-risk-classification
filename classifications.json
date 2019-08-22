@@ -1,0 +1,139 @@
+[
+    {
+        "classification": "Data Risk Classification",
+        "criteria": [
+            {
+                "classification": "Low Risk",
+                "criteria": [
+                    "The data is generally available to the public or",
+                    "The unauthorized use access or alteration of the data would not have an adverse impact on NYU or an individual community member"
+                ]
+            },
+            {
+                "classification": "Moderate Risk",
+                "criteria": [
+                    "\u00a0The data is governed by laws or regulations that restrict the use or disclosure of such data  or",
+                    "The data is subject to contractual restrictions that restrict the use or disclosure of such data or",
+                    "The unauthorized use access or alteration of the data could have an adverse impact on NYU or an individual community member"
+                ]
+            },
+            {
+                "classification": "High Risk",
+                "criteria": [
+                    "The data is governed by laws or regulations that require NYU to report to the government andor provide notice to individuals if the data is breached or",
+                    "The unauthorized use access or alteration of the data could have a significant adverse impact on NYU or an individual community member"
+                ]
+            }
+        ]
+    },
+    {
+        "classification": "Data Risk Examples",
+        "criteria": [
+            {
+                "classification": "Low Risk",
+                "criteria": [
+                    "NetIDs",
+                    "Information authorized to be available on or through NYUS websites without NetID authentication",
+                    "Policy and procedure manuals designated by the owner as public",
+                    "Job postings",
+                    "University contact information not designated by the individual as private in the NYU Directory",
+                    "Publicly available campus maps",
+                    "Research data at data owners discretion"
+                ]
+            },
+            {
+                "classification": "Moderate Risk",
+                "criteria": [
+                    "University and employee ID numbers eg Nnumber",
+                    "Personal Data under the GDPR except for Special Categories of Personal Data",
+                    "Unpublished institutional research data including unpublished research data at owners discretion",
+                    "NYU intellectual property licensed from a third party or that is contractually restricted",
+                    "Student records and admission applications includes FERPAcovered information",
+                    "Human Resources data eg facultystaff employment applications personnel files benefits information salary birth date personal contact information",
+                    "Nonpublic contracts",
+                    "NYU official internal memos and email nonpublic reports and policies budgets plans",
+                    "Engineering design and operational information regarding NYU infrastructure",
+                    "University financial data ie financial data at the system of record where modification of that data would impact University processes does not include representation of that data elsewhere"
+                ]
+            },
+            {
+                "classification": "High Risk",
+                "criteria": [
+                    "Social Security Numbers and national identification numbers",
+                    "Drivers license numbers\n",
+                    "Passport and visa numbers\n",
+                    "Operating system passwords application passwords and API keys\n",
+                    "Central authentication credentials\n",
+                    "Special Categories of Personal Data under the GDPR See Appendix for examples\n",
+                    "Personally identifiable health information about patients including Protected Health Information PHI under HIPAA\n",
+                    "Unpublished research data that is personally identifiable or identified Unpublished institutional research data including unpublished research data that is subject to sponsor federal or foreign government protected data requirements including data originating with human subjects or data which are proprietary confidential sensitive or designated as controlled unclassified information CUI\n",
+                    "Health Insurance policy ID numbers\n",
+                    "CreditDebit card numbers and other cardholder data under the PCIDSS\n",
+                    "BankFinancial account numbers\n",
+                    "Export controlled information\n",
+                    "Donor contact information and nonpublic gift information"
+                ]
+            }
+        ]
+    },
+    {
+        "classification": "System Criticality Classification",
+        "criteria": [
+            {
+                "classification": "Low Criticality",
+                "criteria": [
+                    "Stores transmits or provides access to low Risk Data only"
+                ]
+            },
+            {
+                "classification": null,
+                "criteria": [
+                    "Stores transmits or provides access to Moderate Risk Data",
+                    "Loss of access could have a significant impact on a large number of users or multiple business units and the overall institutional risk from downtime is moderate"
+                ]
+            },
+            {
+                "classification": null,
+                "criteria": [
+                    "Stores transmits or provides access to High Risk Data",
+                    "Loss of access could have a significant impact on NYU as a whole and the overall institution risk from downtime is high"
+                ]
+            }
+        ]
+    },
+    {
+        "classification": "System Criticality Examples",
+        "criteria": [
+            {
+                "classification": "Low Criticality",
+                "criteria": [
+                    "Applications handling Low Risk Data",
+                    "Online maps",
+                    "University online catalog displaying academic course descriptions",
+                    "Bus schedules",
+                    "Public directory containing phone numbers email addresses and titles\u00a0\n"
+                ]
+            },
+            {
+                "classification": "Moderate Criticality",
+                "criteria": [
+                    "Applications handling Moderate Risk Data",
+                    "Human Resources application that stores salary information",
+                    "University application that distributes incident information in the event of a campus emergency",
+                    "System that collects information for potential students to apply",
+                    "System that contains information related to employment applications"
+                ]
+            },
+            {
+                "classification": "High Criticality",
+                "criteria": [
+                    "Applications handling High Risk Data",
+                    "Human Resources application that stores employee SSNs",
+                    "Application that stores campus network node information",
+                    "Application collecting personal information of donors alumni or other individuals",
+                    "Application that processes credit card payments"
+                ]
+            }
+        ]
+    }
+]
